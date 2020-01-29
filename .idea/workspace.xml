@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03d156fd-b494-49df-9c40-545e40840a8c" name="Default Changelist" comment="" />
+    <list default="true" id="03d156fd-b494-49df-9c40-545e40840a8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X21j0V7BHbbaxJkXscG3xkzo3E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,10 +23,45 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Terraform.Apply aws_s3_bucket.bucket">
+    <configuration name="Apply aws_s3_bucket.bucket" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform Apply" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="apply -target=aws_s3_bucket.bucket" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/S3" />
+      <option name="PROGRAM_PARAMETERS" value="apply -target=aws_s3_bucket.bucket" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/S3" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Plan aws_s3_bucket.bucket" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform Plan" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="plan -target=aws_s3_bucket.bucket" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/S3" />
+      <option name="PROGRAM_PARAMETERS" value="plan -target=aws_s3_bucket.bucket" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/S3" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Terraform.Apply aws_s3_bucket.bucket" />
+        <item itemvalue="Terraform.Plan aws_s3_bucket.bucket" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -37,6 +79,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1878" height="286" key="GridCell.Tab.0.bottom" timestamp="1580313717382">
+      <screen x="1440" y="72" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.72.1920.1080@1440.72.1920.1080" timestamp="1580313717382" />
+    <state width="1878" height="286" key="GridCell.Tab.0.center" timestamp="1580313717380">
+      <screen x="1440" y="72" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.center/0.0.1440.900/1440.72.1920.1080@1440.72.1920.1080" timestamp="1580313717380" />
+    <state width="1878" height="286" key="GridCell.Tab.0.left" timestamp="1580313717379">
+      <screen x="1440" y="72" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.left/0.0.1440.900/1440.72.1920.1080@1440.72.1920.1080" timestamp="1580313717379" />
+    <state width="1878" height="286" key="GridCell.Tab.0.right" timestamp="1580313717381">
+      <screen x="1440" y="72" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.right/0.0.1440.900/1440.72.1920.1080@1440.72.1920.1080" timestamp="1580313717381" />
     <state x="2065" y="313" key="search.everywhere.popup" timestamp="1580230212571">
       <screen x="1440" y="72" width="1920" height="1080" />
     </state>
